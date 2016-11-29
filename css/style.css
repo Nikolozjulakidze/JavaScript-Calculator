@@ -1,0 +1,98 @@
+body{
+  background: grey;
+  font-family: Orbitron;
+}
+#calculator{
+  width: 350px;
+  height: 300px;
+  background-color: black;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+#inputbox{
+  background-color: #c3c2ab;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 97%;
+  height: 20%;
+}
+#entry{
+  margin-right: 20px;
+  font-size: 30px;
+}
+#history{
+  margin-top: -20px;
+  margin-right: 20px;
+}
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 1px 9px 11px 3px;
+  height: 35px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+#clear{
+  position: relative;
+  left: 270px;
+  bottom: 187px;
+}
+#CE{
+  position: relative;
+  top: 94px;
+  right: 66px;
+  height: 82px;
+}
+#AC{
+  height: 82px;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+.red{
+  font-size: 14px;
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+#red{
+  color: red;
+}
+footer{
+  margin-top: 50px;
+  margin-left: 500px;
+}
+.blue{
+  color: purple;
+}
